@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Teste seu Teclado</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header-container">
+      <h1>Teste seu Teclado</h1>
+      <p>Os pintados de vermelho não ativam</p>
+    </header>
+    <div class="teclado">
+      <div class="first_coluna">
+        <div class="teclas_normais">
+          <div data-tecla="ESCAPE" class="tecla">ESC</div>
+          <div data-tecla="F1" class="tecla">F1</div>
+          <div data-tecla="F2" class="tecla">F2</div>
+          <div data-tecla="F3" class="tecla">F3</div>
+          <div data-tecla="F4" class="tecla">F4</div>
+          <div data-tecla="F5" class="tecla">F5</div>
+          <div data-tecla="F6" class="tecla">F6</div>
+          <div data-tecla="F7" class="tecla">F7</div>
+          <div data-tecla="F8" class="tecla">F8</div>
+          <div data-tecla="F9" class="tecla">F9</div>
+          <div data-tecla="F10" class="tecla">F10</div>
+          <div data-tecla="F11" class="tecla">F11</div>
+          <div data-tecla="F12" class="tecla">F12</div>
+        </div>
+
+        <div class="teclado_caracteres">
+          <div data-tecla="BACKQUOTE" class="tecla">" <br> '</div>
+          <div data-tecla="DIGIT1" class="tecla">! <br> 1</div>
+          <div data-tecla="DIGIT2" class="tecla">@ <br> 2</div>
+          <div data-tecla="DIGIT3" class="tecla"># <br> 3</div>
+          <div data-tecla="DIGIT4" class="tecla">$ <br> 4</div>
+          <div data-tecla="DIGIT5" class="tecla">% <br> 5</div>
+          <div data-tecla="DIGIT6" class="tecla">¨ <br> 6</div>
+          <div data-tecla="DIGIT7" class="tecla">& <br> 7</div>
+          <div data-tecla="DIGIT8" class="tecla">* <br> 8</div>
+          <div data-tecla="DIGIT9" class="tecla">*( <br> 9</div>
+          <div data-tecla="DIGIT0" class="tecla">*) <br> 0</div>
+          <div data-tecla="MINUS" class="tecla">_ <br> -</div>
+          <div data-tecla="EQUAL" class="tecla">+ <br> =</div>
+          <div data-tecla="BACKSPACE" id="backspace" class="tecla"> ← Back</div>
+        </div>
+
+        <div class="teclado_alfabetico">
+          <div data-tecla="TAB" id="tab" class="tecla">Tab</div>
+          <div data-tecla="KEYQ" class="tecla">Q</div>
+          <div data-tecla="KEYW" class="tecla">W</div>
+          <div data-tecla="KEYE" class="tecla">E</div>
+          <div data-tecla="KEYR" class="tecla">R</div>
+          <div data-tecla="KEYT" class="tecla">T</div>
+          <div data-tecla="KEYY" class="tecla">Y</div>
+          <div data-tecla="KEYU" class="tecla">U</div>
+          <div data-tecla="KEYI" class="tecla">I</div>
+          <div data-tecla="KEYO" class="tecla">O</div>
+          <div data-tecla="KEYP" class="tecla">P</div>
+          <div data-tecla="BRACKETLEFT" class="tecla">` <br> ´ </div>
+          <div data-tecla="BRACKETRIGHT" class="tecla">{ <br> [ </div>
+          <div data-tecla="ENTER" id="enter_principal" class="tecla">↵</div>
+          <div data-tecla="CAPSLOCK" id="caps" class="tecla">Caps</div>
+          <div data-tecla="KEYA" class="tecla">A</div>
+          <div data-tecla="KEYS" class="tecla">S</div>
+          <div data-tecla="KEYD" class="tecla">D</div>
+          <div data-tecla="KEYF" class="tecla">F</div>
+          <div data-tecla="KEYG" class="tecla">G</div>
+          <div data-tecla="KEYH" class="tecla">H</div>
+          <div data-tecla="KEYJ" class="tecla">J</div>
+          <div data-tecla="KEYK" class="tecla">K</div>
+          <div data-tecla="KEYL" class="tecla">L</div>
+          <div data-tecla="SEMICOLON" class="tecla">Ç</div>
+          <div data-tecla="QUOTE" class="tecla">^ <br> ~ </div>
+          <div data-tecla="BACKSLASH" class="tecla">} <br> ] </div>
+          <div data-tecla="SHIFTLEFT" class="tecla">Shift</div>
+          <div data-tecla="INTLBACKSLASH" class="tecla">| <br> \</div>
+          <div data-tecla="KEYZ" class="tecla">Z</div>
+          <div data-tecla="KEYX" class="tecla">X</div>
+          <div data-tecla="KEYC" class="tecla">C</div>
+          <div data-tecla="KEYV" class="tecla">V</div>
+          <div data-tecla="KEYB" class="tecla">B</div>
+          <div data-tecla="KEYN" class="tecla">N</div>
+          <div data-tecla="KEYM" class="tecla">M</div>
+          <div data-tecla="COMMA" class="tecla">< <br> , </div>
+          <div data-tecla="PERIOD" class="tecla">> <br> . </div>
+          <div data-tecla="SLASH" class="tecla">: <br> ; </div>
+          <div data-tecla="INTLRO" class="tecla">? <br> / </div>
+          <div data-tecla="SHIFTRIGHT" id="shift" class="tecla">Shift</div>
+          <div data-tecla="CONTROLLEFT" class="tecla">Ctrl</div>
+          <div data-tecla="METALEFT" class="tecla">Win</div>
+          <div data-tecla="ALTLEFT" class="tecla">Alt</div>
+          <div data-tecla="SPACE" id="space" class="tecla">Space</div>
+          <div data-tecla="ALTRIGHT" class="tecla">AltGr</div>
+          <div data-tecla="FN" class="tecla desativado">Fn</div>
+          <div data-tecla="CONTEXTMENU" class="tecla">Option</div>
+          <div data-tecla="CONTROLRIGHT" class="tecla">Ctrl</div>
+        </div>
+      </div>
+
+      <div class="teclas_funcionais">
+        <div class="teclas_funcionais_grid">
+          <div class="tecla desativado">Print <br> Screen</div>
+          <div data-tecla="SCROLLLOCK" class="tecla">Scroll <br> Lock</div>
+          <div data-tecla="PAUSE" class="tecla">Pause</div>
+          <div data-tecla="INSERT" class="tecla">Ins</div>
+          <div data-tecla="HOME" class="tecla">Home</div>
+          <div data-tecla="PAGEUP" class="tecla">PgUp</div>
+          <div data-tecla="DELETE" class="tecla">Del</div>
+          <div data-tecla="END" class="tecla">End</div>
+          <div data-tecla="PAGEDOWN" class="tecla">PgDn</div>
+        </div>
+
+        <div id="marca">
+          <h1>RedDragon</h1>
+        </div>
+
+        <div class="setas">
+          <div data-tecla="ARROWLEFT" id="left" class="tecla">←</div>
+          <div data-tecla="ARROWUP" id="up" class="tecla">↑</div>
+          <div data-tecla="ARROWRIGHT" id="right" class="tecla">→</div>
+          <div data-tecla="ARROWDOWN" id="bottom" class="tecla">↓</div>
+          <div></div>
+        </div>
+      </div>
+
+      <div class="teclado_numerico">
+        <div data-tecla="NUMLOCK" class="tecla">Num <br> Lock</div>
+        <div data-tecla="NUMPADDIVIDE" class="tecla">/</div>
+        <div data-tecla="NUMPADMULTIPLY" class="tecla">*</div>
+        <div data-tecla="NUMPADSUBTRACT" class="tecla">-</div>
+        <div data-tecla="NUMPAD7" class="tecla">7</div>
+        <div data-tecla="NUMPAD8" class="tecla">8</div>
+        <div data-tecla="NUMPAD9" class="tecla">9</div>
+        <div data-tecla="NUMPADADD" class="tecla">+</div>
+        <div data-tecla="NUMPAD4" class="tecla">4</div>
+        <div data-tecla="NUMPAD5" class="tecla">5</div>
+        <div data-tecla="NUMPAD6" class="tecla">6</div>
+        <div data-tecla="NUMPADCOMMA" class="tecla">.</div>
+        <div data-tecla="NUMPAD1" class="tecla">1</div>
+        <div data-tecla="NUMPAD2" class="tecla">2</div>
+        <div data-tecla="NUMPAD3" class="tecla">3</div>
+        <div data-tecla="NUMPADENTER" id="enter" class="tecla">Enter</div>
+        <div data-tecla="NUMPAD0" id="zero" class="tecla">0</div>
+        <div data-tecla="NUMPADDECIMAL" class="tecla">, <br> Del</div>
+      </div>     
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
